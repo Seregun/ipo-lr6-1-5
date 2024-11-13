@@ -22,7 +22,7 @@ positive_percentage = (positive_count / total_count) * 100 # Вычисляем 
 negative_percentage = (negative_count / total_count) * 100 # Вычисляем проценты для отрицательного элемента
 zero_percentage = (zero_count / total_count) * 100 # Вычисляем проценты для нулевого элемента
 max_value = max(numbers) # Находим максимальное значение в списке
-min_value = min(numbers) # Находим максимальное значение в списке
+min_value = min(numbers) # Находим минимальное значение в списке
 print("Список случайных чисел:", numbers) # Выводим сгенерированный список
 print(f"Положительных чисел: {positive_count} ({positive_percentage:.2f}%)") # Выводим количество и процентное соотношение положительных чисел
 print(f"Отрицательных чисел: {negative_count} ({negative_percentage:.2f}%)") # Выводим количество и процентное соотношение отрицательных чисел
